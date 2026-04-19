@@ -1,0 +1,5 @@
+name = input("enter player name: ")
+games = int(input("no. of games played: "))
+score = int(input("total score: "))
+x = round(score/games)
+avg = print(f"the avg score of every game is {x}")
